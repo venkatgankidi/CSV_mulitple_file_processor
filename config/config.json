@@ -1,0 +1,41 @@
+{
+  "headers":["header1", "header2", "header3", "header4", "header5", "header6", "header7", "header8", "header9"],
+  "header_mapping": {
+    "header.header1":"header1",
+    "header.header2":"header2",
+    "header.header3":"header3",
+    "header.header4":"header4",
+    "header.header5":"header5",
+    "header.header6":"header6",
+    "header.header7":"header7",
+    "header.header8":"header8",
+    "header.header9":"header9"
+  },
+  "value_mapping": {
+    "header.header1": "Stringnotnull",
+    "header.header2": "IntorNull",
+    "header.header3": "Date",
+    "header.header4": "Stringnotnull",
+    "header.header5": "String",
+    "header.header6": "Stringnotnull",
+    "header.header7": "Stringnotnull",
+    "header.header8": "IntorNull",
+    "header.header9": "String"
+  },
+  "error_code_mapping":{
+    "error1":"E1",
+    "error2":"E2",
+    "error3":"E3",
+    "error4":"E4",
+    "error5":"E5",
+    "error6":"E6"
+  },
+  "error_message_mapping":{
+    "error1":"Bad headers",
+    "error2":"unexpected record length",
+    "error3":" can only be null or String",
+    "error4":" cannot be null and must be in date format yyyymmdd",
+    "error5":" can only be null or integer",
+    "error6":" cannot be null and must be string"
+  }
+}
